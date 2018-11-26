@@ -27,6 +27,7 @@ git clone https://github.com/redsx/NAMI.git
 cd NAMI
 npm install
 npm run prod # 打包前端或者使用npm run dev (开发模式)
+# 修改 \NAMI\server\config\mongo-config.js PORT號與mongoDB一致
 npm start # open server, open http://localhost:3002
 ```
 

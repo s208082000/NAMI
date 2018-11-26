@@ -9,6 +9,9 @@ const history = new Schema({
         type: Schema.Types.ObjectId,
         ref: 'user'
     }
+}, 
+{ 
+    usePushEach: true 
 });
 
 module.exports = mongoose.model('history',history);

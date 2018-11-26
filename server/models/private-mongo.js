@@ -9,5 +9,8 @@ const private = new Schema({
     to: String,    
     timestamp: Number,
     type: String
+}, 
+{ 
+    usePushEach: true 
 });
 module.exports = mongoose.model('private',private);

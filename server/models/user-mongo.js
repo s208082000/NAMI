@@ -47,5 +47,8 @@ const user = new Schema({
         type: Schema.Types.ObjectId,
         ref: 'online'
     },
+}, 
+{ 
+    usePushEach: true 
 })
 module.exports = mongoose.model('user',user);

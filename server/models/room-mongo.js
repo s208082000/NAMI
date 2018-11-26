@@ -34,5 +34,8 @@ const room = new Schema({
         type: Date, 
         default: Date.now()
     }
+}, 
+{ 
+    usePushEach: true 
 });
 module.exports = mongoose.model('room',room);
